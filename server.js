@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 app.listen(8081, () => {
-    console.log('Server is running on http://localhost:8081');
+    console.log('Server is running!');
 });
 
 // GET all users
